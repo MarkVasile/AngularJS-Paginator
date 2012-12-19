@@ -1,4 +1,4 @@
-var balfour_filters = angular.module('balfour.filter', []).
+var bitlion_filters = angular.module('bitlion.filter', []).
 
     filter('filterLabel', function() {
         return function(text) {

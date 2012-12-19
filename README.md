@@ -30,3 +30,5 @@ Steps for integration:
     ```
 
 4. Modify the CSS to format the page numbers
+
+TODO: Need to create Jasmine tests

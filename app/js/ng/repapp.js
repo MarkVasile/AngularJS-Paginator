@@ -1,6 +1,6 @@
-var balfour = angular.module(
-    'balfour',
-     ['ui', 'ngResource', 'balfour.service', 'balfour.directive', 'balfour.filter', 'balfour.controllers']
+var bitlion = angular.module(
+    'bitlion',
+     ['ui', 'ngResource', 'bitlion.service', 'bitlion.directive', 'bitlion.filter', 'bitlion.controllers']
     ).
 
     config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {

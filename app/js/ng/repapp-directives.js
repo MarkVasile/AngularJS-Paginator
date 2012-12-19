@@ -1,4 +1,4 @@
-var balfour_directive = angular.module('balfour.directive', []).
+var bitlion_directive = angular.module('bitlion.directive', []).
 
 /*
 * paginator widget

@@ -1,4 +1,4 @@
-angular.module('balfour').
+angular.module('bitlion').
 
 /*
 * implement here the AngularJS $resource with whatever parameters you

@@ -2,9 +2,9 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('balfour app', function() {
+describe('bitlion app', function() {
 
-    beforeEach(module('balfour'));
+    beforeEach(module('bitlion'));
 
     beforeEach(function() {
         browser().navigateTo('/');

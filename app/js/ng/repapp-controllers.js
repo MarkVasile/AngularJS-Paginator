@@ -1,4 +1,4 @@
-angular.module('balfour.controllers', []).
+angular.module('bitlion.controllers', []).
 
 /* 
 * example angular controller - exampleListController

@@ -1,2 +1,2 @@
-var balfour_services = angular.module('balfour.service', []);
+var bitlion_services = angular.module('bitlion.service', []);
 

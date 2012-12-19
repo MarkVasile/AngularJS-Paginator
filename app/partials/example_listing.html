@@ -1,0 +1,30 @@
+<input type="text" class="span12" placeholder="Type name..."
+ng-model='search_phrase' ui-event="{keyup: 'searchListing($event, this)'}" autofocus />
+<div class="span12 example_listing">
+    <paginator current-page="{{ listing.current_page }}" total_pages="{{ listing.total_pages }}" call="searchListing" wclass="current_page"></paginator>
+    <table class="table table-condensed table-hover" style="display:
+        none" data-ng-show="listing">
+        <thead>
+            <th>Name</th>
+            <th>City</th>
+            <th>State</th>
+            <th>ZIP Code</th>
+            <th>ID</th>
+            <th>Type</th>
+            <th><a href="#/new"><i class="icon-plus-sign"></i></a></th>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="rep in listing.rows | orderBy:'name'">
+                <td><a href="#/rep/{{ rep.id }}">{{ rep.name }}</a></td>
+                <td>{{ rep.city }}</td>
+                <td>{{ rep.state }}</td>
+                <td>{{ rep.zip }}</td>
+                <td>{{ rep.id }}</td>
+                <td>{{ rep.rep_type }}</td>
+                <td><a href="#/rep/{{ rep.id }}"><i class="icon-pencil"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+    <paginator current-page="{{ listing.current_page }}" total_pages="{{ listing.total_pages }}" call="searchListing" wclass="current_page"></paginator>
+</div>
+

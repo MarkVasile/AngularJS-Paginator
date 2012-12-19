@@ -1,0 +1,5 @@
+paginator { float: right; }
+paginator a { margin: 5px; }
+paginator a:after { content: ','; }
+paginator a:last-child:after { content: ''; }
+paginator .current_page { color: black; text-decoration: none; font-weight: bold; }
